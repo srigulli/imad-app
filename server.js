@@ -10,38 +10,44 @@ var articles = {
     title : 'ArticleOne | Sridhar Gullipalli',
     heading: 'ArticleOne',
     date: '1st March 2018',
-    content: `<p>
+    content: `
+           <p>
            This is the content of my First Article. This is the content of my first Article
          </p>
          <p>
            This is the content of my First Article
-         </p>`
+         </p>
+           `
               },
    'articletwo' : {
     title : 'ArticleTwo | Sridhar Gullipalli',
     heading: 'ArticleTwo',
     date: '3rd March 2018',
-    content: `<p>
+    content: `
+            <p>
            This is the content of my Second Article. This is the content of my Second Article
          </p>
          <p>
            This is the content of my Second Article
-         </p>`
+         </p>
+            `
     
                 },
   'articlethree' : {
     title : 'ArticleThree | Sridhar Gullipalli',
     heading: 'ArticleThree',
     date: '4th March 2018',
-    content: `<p>
+    content: `
+            <p>
            This is the content of my Third Article. This is the content of my Third Article
          </p>
          <p>
            This is the content of my Third Article
-         </p>`
+         </p>
+            `
     
                 } 
-};
+       };
 function createTemplate (data) {
     var title =data.title;
     var date =data.date;
